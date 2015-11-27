@@ -3,6 +3,7 @@
 #Usage: perl id.pl poem?.txt
 #Program goes through a list of poets and their texts, recording their word usage
 #This data is then matched against the word usage in the given poem.txt
+#Implements a Naive Bayes Classifier
 
 foreach $poem (@ARGV){
     #hash for words in poem
